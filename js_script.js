@@ -1,7 +1,7 @@
 document.getElementById('submitButton').addEventListener('click', function(event) {
   event.preventDefault();
   const inputText = document.getElementById('inputText').value;
-  const apiUrl = 'https://ton-api.com/endpoint'; // Remplace par ton URL
+  const apiUrl = 'http://13.50.251.37:5001/search'; // Remplace par ton URL
 
   fetch(apiUrl, {
     method: 'POST',
